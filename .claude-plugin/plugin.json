@@ -1,0 +1,9 @@
+{
+  "name": "studio",
+  "description": "A project desk for non-code work — writing, content, and small-business projects. studio:new-project scaffolds a consistent folder skeleton and interviews you for the brief (audience, tone, voice, goals, and what one finished piece looks like); studio:scope shapes a fast first version (MVP) the way release-shaping does but without the code machinery — fix the time budget (appetite), name the risky unknowns (rabbit holes), and triage every item include/defer/split/risk-first into v1 or later versions; studio:next-piece develops the next deliverable end to end, adapted to the project's format (a script, a chapter, a tour, an issue — not assumed to be a podcast episode); studio:project-desk runs the day-to-day (what's due this week, the publishing calendar, and a plain-language decision log). Same structure every project, so you always know where the plan, the decisions, and the work live.",
+  "version": "0.5.0",
+  "author": {
+    "name": "Marie-Rose Ramboz"
+  },
+  "keywords": ["skill", "project-management", "writing", "content", "creative", "planning", "calendar", "decisions", "non-code", "scaffold"]
+}
