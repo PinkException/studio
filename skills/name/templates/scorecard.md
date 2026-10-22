@@ -61,7 +61,7 @@ treat them as sparks, not finalists.
 
 | Criterion (weight) | {{NAME_1}} | {{NAME_2}} | {{NAME_3}} |
 | --- | --- | --- | --- |
-| Metaphor strength (×3) | | | |
+| Concept strength (×3) | | | |
 | Memorability (×3) | | | |
 | Story (×2) | | | |
 | Distinctiveness (×2) | | | |

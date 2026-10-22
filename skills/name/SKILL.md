@@ -127,7 +127,10 @@ this. If a brief or north star already exists, skim it and start.
 Map three to five **metaphor territories** (what else in the world works like this
 product?) and — unlike final mode — show them openly and react together. Which ones
 spark? Which fall flat? The territories are the real creative lever; the names are what
-fall out of a good one. Spend time here before any names.
+fall out of a good one. Spend time here before any names. A "territory" needn't be a
+metaphor: "short coined roots" and "one sharp word, subtitle does the rest" (the Clue /
+Flo / Dot register) are directions worth riffing on too — don't let the metaphor framing
+quietly rule them out.
 
 ### 3. Riff in batches
 
@@ -186,14 +189,23 @@ works like this product? (A plant-care app is a *gardener*, a *ritual*, a *pocke
 greenhouse*, a *weather vane*…) When the brief is clear, pick the territories yourself and
 explain them later; only ask the user to choose when two directions are genuinely tied.
 
+Not every good name comes from a metaphor, so don't force one. A clean coined root
+(route 3 in naming-craft.md) or a short, sharp word whose store subtitle carries the
+literal meaning (the Clue / Flo / Daylio pattern) is a legitimate destination, not a
+failure to find a metaphor — especially for a plain utility app in a crowded category,
+where every drawable real word is already taken.
+
 ### 3. Generate, filter, shortlist — internally
 
-Produce 30+ candidates across the territories (real words, grounded compounds, modified
-words, words from the languages that matter, sound-first inventions). Then cut hard with
-the anti-pattern checklist in naming-craft.md: no suffix slop, no empty compounds, no
-thesaurus words, nothing that fails the phone test, nothing with a bad meaning in a
-market language. Keep **six to eight semifinalists**. Don't show the raw list — the user
-should meet only vetted names.
+Produce 30+ candidates across all three routes in naming-craft.md (repurposed real words,
+grounded compounds, and coined-but-rooted inventions), plus words from the languages that
+matter — and don't skip route 3: in a crowded category it's where most survivors come
+from. Then cut hard. Run the **wrong-association gate first** — drop any name whose most
+common everyday meaning points away from the product (Chartroom → boats, Backtrace → back
+entrance), before you weigh anything else. Then the anti-pattern checklist: no suffix slop,
+no empty compounds, no thesaurus words, nothing that fails the phone test, nothing with a
+bad meaning in a market language. Keep **six to eight semifinalists**. Don't show the raw
+list — the user should meet only vetted names.
 
 ### 4. Collisions first, then the checker
 
@@ -267,8 +279,15 @@ not a reservation), claim the handles, and — if a launch is being shaped — h
   right mode when the user is in the wrong one.
 - **Protect the permanent things.** The one real danger of a placeholder is that it
   leaks into a store identifier or a legal document. Say so every time, briefly.
-- **Metaphor over description, story over vibe.** If you can't tell a 15-second story
-  about why it's called that, it isn't ready. A description belongs in the tagline.
+- **Concept over description, story over vibe.** A name earns its place through one of
+  three routes — a drawable metaphor, a hearable coined root, or a short sharp word whose
+  subtitle carries the literal meaning — not only through metaphor. A bare description
+  belongs in the subtitle, not the name. But every route still owes a 15-second story; if
+  you can't say why it's called that, it isn't ready.
+- **Check the everyday meaning before the cleverness.** Before judging a candidate on any
+  other axis, ask what the bare word already means to a stranger. If its dominant sense
+  points away from the product, it's out — an evocative compound whose real-world
+  association misleads (boats, a back entrance) is a trap, not a finalist.
 - **Evidence, not clearance.** The checker and your searches say what is *visible*
   today. They don't see pending trademarks, unlisted apps, or next week. Phrase results
   as "looks free as of <date>" and name what wasn't checked.
