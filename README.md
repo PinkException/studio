@@ -6,10 +6,10 @@
 
 *Writing projects · content channels · small businesses · guided tours*
 
-[![version](https://img.shields.io/badge/version-0.5.0-blue)](https://github.com/Kyarha/studio/releases)
+[![version](https://img.shields.io/badge/version-0.6.0-blue)](https://github.com/PinkException/studio/releases)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-8A63D2)](https://docs.claude.com/en/docs/claude-code)
-[![skills](https://img.shields.io/badge/skills-4-orange)](#-the-four-helpers)
+[![skills](https://img.shields.io/badge/skills-5-orange)](#-the-five-helpers)
 
 </div>
 
@@ -24,14 +24,15 @@ One structure for every project. A YouTube channel this month, a book next year,
 city tours after that — **you learn it once.**
 
 ```text
-new-project  →  scope  →  next-piece  →  project-desk
-  set up        shape       build         run the
-  the brief     the MVP    deliverables   day-to-day
+new-project  →  name  →  scope  →  next-piece  →  project-desk
+  set up      codename   shape       build         run the
+  the brief   now, real  the MVP    deliverables   day-to-day
+              name later
 ```
 
 ## 🚀 Quick start
 
-1. **Install** — download [`studio-v0.5.0.zip`](https://github.com/Kyarha/studio/releases/latest)
+1. **Install** — download [`studio-v0.6.0.zip`](https://github.com/PinkException/studio/releases/latest)
    from the latest release and add it as a plugin in Claude Code.
 2. **Start a project** — in a fresh folder, just say it in plain words:
    > *"Start a new project for my YouTube channel."*
@@ -42,11 +43,12 @@ new-project  →  scope  →  next-piece  →  project-desk
 
 No commands to memorize — describe what you want and the right helper steps in.
 
-## 🧰 The four helpers
+## 🧰 The five helpers
 
 | Helper | What it's for | Say something like |
 |---|---|---|
 | **`studio:new-project`** | Scaffold a fresh project + interview you for the **brief** (the north star: audience, tone, voice, goals, and what one finished piece looks like). | *"Start a new project for my YouTube channel."* |
+| **`studio:name`** | Two moments, two modes. **Placeholder:** a working codename in minutes, fenced out of the places you can't change later (store identifiers, legal pages, bought domains). **Final:** a real naming round before launch — brief, metaphor territories, filtered candidates, live checks (domains, GitHub, App Store, Google Play) plus trademark and handle links, a scored shortlist with origin stories, and a written record of why. | *"Give me a working name for my new budgeting app."* · *"Time to name this for real — is Mossling taken?"* |
 | **`studio:scope`** | Shape **any version, one at a time** (the first is the MVP): set a **time budget** (appetite), name the **risky unknowns** (rabbit holes), and triage every item **include / defer / split / risk-first**. Re-run it for v2, v3… | *"What's the smallest thing I can launch?"* |
 | **`studio:next-piece`** | Build the next deliverable end to end, **adapted to your format** — a script, a chapter, a tour, an issue, a marketing post — in the project's own voice. | *"Let's build the next one."* |
 | **`studio:project-desk`** | The day-to-day: **what's due this week**, the calendar, the backlog, and a plain-language **decision log**. | *"Where am I? What's due?"* |
@@ -68,7 +70,7 @@ your-project/
 │   ├── budget.md       money + time
 │   └── metrics.md      what success looks like, tracked
 ├── content/           the actual work — one folder per deliverable
-├── reference/         source material & research
+├── reference/         source material & research (naming/ holds the naming records)
 └── assets/            exports: images, audio, thumbnails
 ```
 
@@ -76,7 +78,8 @@ your-project/
 
 1. **`new-project`** sets up the folders and, more importantly, interviews you to fill the
    **brief** — including what a finished piece looks like, so nothing is assumed to be a
-   podcast episode.
+   podcast episode. No name yet? **`name`** hands you a codename on the spot and comes
+   back before launch for the real one, with availability checks and a scorecard.
 2. **`scope`** shapes the smallest first version worth launching: you set a time budget, it
    fits the work to that budget, flags the risky unknowns, and parks the rest — so you
    **ship instead of planning forever**.
@@ -127,7 +130,7 @@ channels, launch); jig/shaper still own which features ship in which build.
 
 studio is distributed as a plugin zip:
 
-1. Grab [`studio-v0.5.0.zip`](https://github.com/Kyarha/studio/releases/latest) from the
+1. Grab [`studio-v0.6.0.zip`](https://github.com/PinkException/studio/releases/latest) from the
    latest release.
 2. Add it as a plugin in Claude Code (the desktop app's plugin upload, or your usual
    marketplace flow).
