@@ -4,25 +4,70 @@ A condensed field guide for **final mode**. Adapted, with thanks, from the MIT-l
 [glacierphonk/naming](https://github.com/glacierphonk/naming) skill, trimmed to what a
 small studio naming consumer apps actually needs.
 
+## First filter: the wrong-association gate
+
+Run this *before* judging how clever or available a name is. Say the bare word to someone
+who's never heard of the product and ask what it sounds like. If its most common everyday
+meaning points somewhere other than what you do, cut it now — nothing downstream recovers
+it. *Chartroom* reads as boats before it reads as health; *Backtrace* reads as a back
+entrance before it reads as a history. A name doesn't get to overwrite the meaning people
+already carry; it competes against it. This gate goes first because the trap is specific:
+an evocative, available, sayable compound that a metaphor-first instinct keeps pushing
+forward even though its dominant real-world sense points away from the product.
+
+Test: *what does this word already mean to a stranger?* If the honest answer isn't your
+category or something neutral, it's out — however good it looks on the other criteria.
+
 ## What makes a name stick
 
-1. **A metaphor you can draw.** The best names borrow a concrete image from another
+### Three routes to a usable name
+
+Every clean single real word in a crowded category is already taken. Accept that up front —
+it decides which route you're actually on. Known real words out-recall coined ones, which
+is why route 1 wins *when you can get it*; you usually can't, so most real names land on
+route 3.
+
+1. **Repurposed real word — a metaphor you can draw.** Borrow a concrete image from another
    domain: Sentry (a guard → error monitoring), Docker (dock worker → containers), Vault.
-   A description just labels the category: SiteWatch, DataSync. Test: *can you draw a
-   picture of the name?*
-2. **Real words win recall.** Known words repurposed beat coined words roughly two to
-   one in recall tests. Invented words must be short and rooted in morphemes people
-   recognise (Figma ← figure, Grafana ← graph). "Nexagen" is noise.
-3. **Both halves of a compound must earn their place.** Cover one half: does the other
-   still say something specific? Datadog, Mailchimp yes; CloudSync, SmartHub no.
+   Strongest route, rarest to find free. A bare description just labels the category
+   (SiteWatch, DataSync). Test: *can you draw a picture of it?*
+2. **Grounded compound.** Two real words where each half earns its place and the pair
+   points at the product: Datadog, Mailchimp. Cover one half — does the other still say
+   something specific? If not (CloudSync, SmartHub), it's filler, not a compound. The
+   wrong-association gate bites hardest here: two innocent words can fuse into an unwanted
+   third meaning (Backtrace), so run the gate on the *whole* word, not the parts.
+3. **Coined-but-rooted invention.** Fuse one or two recognisable morphemes into a short,
+   sayable new word: Figma (← figure), Spotify, Oura (← aura), Noom, Flo, Clue, Whoop. In a
+   saturated market this is the *default* route, not a consolation prize — and it is **not**
+   the slop below. The line is simple: a root a listener can hear, and a shape they can say.
+   "Oura" carries *aura*; "Nexagen" carries nothing. Keep it four to seven letters, one or
+   two syllables, clean in the market languages — and don't drop vowels to fake an available
+   spelling (that reads as "the real word was taken").
+
+### The short-standout case — most utility apps live here
+
+"Descriptive vs distinctive" is a false pair. Most utility apps sit between the poles, at a
+practical sweet spot: a **short, slightly sharp name whose literal meaning the store
+subtitle and icon carry.** The name stands out in a store list; the subtitle says what it
+does. Clue, Flo, Bearable, Daylio all work this way — the word alone doesn't spell out the
+function and doesn't need to. This is what frees short, a-little-clever names in the
+Tabs / Dot / Jot register that a strict "metaphor you can draw" bar would wave away. Split
+the two jobs on purpose: the **name earns attention, the subtitle earns understanding.**
+Don't make one short word do both.
+
+### Then, for any route
+
 4. **Length.** One or two syllables ideal, three is the practical ceiling for one word.
    Four to six letters ideal; seven max for an invented word.
 5. **The phone test.** Say it once to someone. Can they repeat it, spell it closely
    enough to search for it, and remember it tomorrow? Clever misspellings fail this.
 6. **A 15-second origin story.** If you can't explain why it's called that, it isn't
-   ready. The story is also free marketing copy.
-7. **Distinctive over descriptive.** The name creates recall; the tagline creates
-   clarity. Slack, Notion, Discord say nothing about their category and stick anyway.
+   ready. The story is also free marketing copy. (A short-standout name's story can be "it
+   says nothing on its own, and the subtitle carries the rest" — that's a legitimate story,
+   not a missing one.)
+7. **Recall, then clarity.** The name creates recall; the subtitle or tagline creates
+   clarity. Slack, Notion, Discord say nothing about their category and stick anyway —
+   because the surrounding context does the explaining.
 
 ### Extra gates for a small consumer-app studio
 
@@ -53,6 +98,11 @@ small studio naming consumer apps actually needs.
 | Fake Latin/Greek | Cognivex, Synaptiq, Luminex | Impressive for two seconds |
 | Aspirational adjectives | BrightPath, TrueNorth, ClearView | Could be any product |
 
+Rooted invention (route 3) is **not** the portmanteau row. The difference is a hearable
+root: Figma carries *figure*, Oura carries *aura*; Nexagen and Vaultora carry nothing a
+listener can name. The test is whether someone can tell you where the word came from after
+hearing it once — if they can, it's a coined name; if they can't, it's slop.
+
 **Filler words.** First position: Smart, Auto, Cloud, AI, Data, Next, Digital, True,
 Pure, Easy, Pro, Ultra, Super, Meta, Core. Second position: Hub, Lab, Base, Flow, Sync,
 Link, Stack, Forge, Verse, Path, Nest, Box. If removing a word doesn't change the
@@ -80,7 +130,7 @@ Only names that cleared the red-flag checklist get scored. Rate 1–5 each, then
 
 | Criterion | Weight | Ask |
 | --- | --- | --- |
-| Metaphor strength | ×3 | Does it plant a concrete image tied to the product? |
+| Concept strength | ×3 | Does one route land — a drawable metaphor, a hearable root, or a sharp short word the subtitle completes? |
 | Memorability | ×3 | Remembered tomorrow after one hearing? |
 | Story | ×2 | Does the origin story land ("that's clever")? |
 | Distinctiveness | ×2 | Stands apart from competitors and neighbours? |
