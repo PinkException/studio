@@ -1,13 +1,17 @@
 ---
 name: name
 description: >-
-  Name an app, product, or project — in two phases. **Placeholder** (a working codename
-  so you can start today without baking a name into permanent places), and **final** (a
-  real naming round: brief, metaphor territories, candidates, filtering, live availability
+  Name an app, product, or project — in three modes. **Placeholder** (a working codename
+  so you can start today without baking a name into permanent places), **explore** (a
+  collaborative brainstorm — riff on metaphor territories and candidate names together,
+  show the messy many, no checks and no ceremony), and **final** (a real naming round:
+  brief, metaphor territories, candidates, filtering, live availability
   checks for domains / GitHub / App Store / Google Play plus trademark and social-handle
   links, a scored shortlist with origin stories, and a written record). Use whenever the
   user invokes /studio:name, or says "I need a name for <thing>", "give me a working name",
-  "codename for my new app", "placeholder name", "it's time to name this for real", "is
+  "codename for my new app", "placeholder name", "brainstorm names for <thing>", "let's
+  riff on names", "throw some name ideas around", "explore names", "what could we call
+  it", "it's time to name this for real", "is
   <name> taken", "check if <name> is available", "rename <placeholder> before launch",
   "help me pick between these names", or starts a project and has no name yet. Works for a
   studio project (writes to reference/naming/ and decisions/log.md) and for the docked
@@ -33,9 +37,16 @@ lot: it goes on the store listing, the domain, the legal pages, the logo, and in
 people's mouths. That's **final** mode: a proper round with research, real checks, and a
 written record of why — so the choice is never re-argued.
 
+Between those two is a third thing, less a moment than a mood: not committing, not ready
+for the full round, but the name is itching at you and you want to *play* with it — throw
+directions around, see what sparks, keep a few you like. That's **explore** mode:
+collaborative, divergent, no checks and no ceremony. It's the one mode where the messy
+many are the point, not something to hide.
+
 Pick the mode from what the user said. "Working name", "codename", "placeholder", "just
-to start" → placeholder. "For real", "before launch", "is X taken", "final name" → final.
-Unsure → ask which moment they're in; it's one question.
+to start" → placeholder. "Brainstorm", "riff", "throw ideas around", "explore names",
+"play with names", "what could we call it" → explore. "For real", "before launch", "is X
+taken", "final name" → final. Unsure → ask which moment they're in; it's one question.
 
 ## Where things live
 
@@ -92,6 +103,54 @@ The goal is a label the user won't mind saying for the next few months, that is 
    Then hand back to whatever the user was doing — usually **studio:new-project** or
    **studio:scope**. Placeholder mode should feel like a two-minute detour, not a
    session.
+
+---
+
+## Explore mode — riff on directions together
+
+This is the opposite of final mode's funnel. The user isn't deciding — they're thinking
+out loud, and the generating *is* the point. No availability checks, no scoring, no
+written record unless they ask. Show the messy many, react together, follow what sparks.
+
+Keep [reference/naming-craft.md](reference/naming-craft.md) within reach for the craft —
+but here it's instinct, not a gate. Flag slop lightly and still chase a bad-but-fun idea
+to see where it leads; the hard cuts belong to final mode.
+
+### 1. A one-question brief
+
+Ask only what you need to riff: what it does, in a sentence, and the feeling the name
+should chase. Skip languages, platforms, and checks — that's vetting, and vetting is not
+this. If a brief or north star already exists, skim it and start.
+
+### 2. Put the territories on the table
+
+Map three to five **metaphor territories** (what else in the world works like this
+product?) and — unlike final mode — show them openly and react together. Which ones
+spark? Which fall flat? The territories are the real creative lever; the names are what
+fall out of a good one. Spend time here before any names.
+
+### 3. Riff in batches
+
+Generate candidates a dozen at a time, grouped by the territory they came from, and show
+the whole batch — the good, the rough, and the obviously-doomed. Then react together:
+mark what the user likes, follow the threads that excite them, spin variations on a
+favourite, abandon the dead ends. Chase tangents — a name the user laughs at often points
+at the one they keep. Repeat until the well runs dry or a few names keep resurfacing.
+
+### 4. Collect the keepers — loosely
+
+When some names keep coming back, gather them as a plain "names I like" list. No scores,
+no ceremony, and **no availability claims** — these are unvetted sparks, not finalists.
+Say so, so no one falls for a name a single WebSearch would have killed.
+
+### 5. Capture or hand off
+
+Offer — don't force — to save the keepers and the territories that worked to the naming
+record (`reference/naming/<slug>.md`, or `docs/business/naming/<slug>.md` when docked)
+under an **Explorations** heading, so a later round starts warm instead of from a blank
+page. Then name the real next step: when the user wants these vetted for real —
+collisions, availability, a scored shortlist, a written why — that's **final mode**.
+Explore warms the oven; final mode bakes.
 
 ---
 
@@ -219,8 +278,11 @@ not a reservation), claim the handles, and — if a launch is being shaped — h
   trademark in the same class.
 - **Languages are a gate, not a nice-to-have.** If the roadmap says French and German
   are coming, a name that's a giggle in either one fails now, not later.
-- **Show the vetted few, not the messy many.** The user's attention goes to deciding
-  between good options, not to wading through forty.
+- **Show the vetted few, not the messy many — except when exploring.** In final mode the
+  user's attention goes to deciding between good options, not wading through forty. In
+  explore mode it's the reverse: the messy many *are* the session, shown openly and
+  reacted to together. Don't run a final-mode funnel when the user asked to brainstorm,
+  or a brainstorm when they asked for finalists.
 - **Don't invent availability.** If the network, a rate limit, or a blocked host stops
   a check, report `unknown` and give the link — never guess from memory which names are
   taken.

@@ -7,7 +7,7 @@
     {
       "name": "studio",
       "source": "./",
-      "description": "A project desk for non-code work. new-project scaffolds a consistent folder skeleton + brief; name gives a project a working codename fast, then a real naming round before launch (candidates, availability checks for domains / GitHub / App Store / Google Play, trademark links, scored shortlist, written record); scope shapes a fast first version (MVP) — fix the time budget (appetite), name the risky unknowns (rabbit holes), triage every item include/defer/split/risk-first — a plain-language take on release-shaping with no code machinery; next-piece develops the next deliverable adapted to the project's format (script, chapter, tour, issue); project-desk runs status, calendar, and a plain-language decision log. One structure for every project — a YouTube channel, a book, a set of guided tours."
+      "description": "A project desk for non-code work. new-project scaffolds a consistent folder skeleton + brief; name gives a project a working codename fast, brainstorms name ideas with you when you just want to riff, then a real naming round before launch (candidates, availability checks for domains / GitHub / App Store / Google Play, trademark links, scored shortlist, written record); scope shapes a fast first version (MVP) — fix the time budget (appetite), name the risky unknowns (rabbit holes), triage every item include/defer/split/risk-first — a plain-language take on release-shaping with no code machinery; next-piece develops the next deliverable adapted to the project's format (script, chapter, tour, issue); project-desk runs status, calendar, and a plain-language decision log. One structure for every project — a YouTube channel, a book, a set of guided tours."
     }
   ]
 }
