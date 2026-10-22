@@ -19,6 +19,14 @@
 2. **{{TERRITORY_2}}** — {{WHY_2}}
 3. **{{TERRITORY_3}}** — {{WHY_3}}
 
+<!-- Optional — only if an explore-mode round happened first. Delete if unused. -->
+## Explorations (unvetted — from explore mode)
+
+Early brainstorm keepers, kept so a final round starts warm. No checks were run on these;
+treat them as sparks, not finalists.
+
+- {{EXPLORE_KEEPER}} — from the {{EXPLORE_TERRITORY}} territory
+
 ## Collisions found (names dropped before checking)
 
 | Candidate | Killed by |
