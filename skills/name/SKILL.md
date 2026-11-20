@@ -240,7 +240,9 @@ social handles the script can't query. Add `--json` for machine-readable output,
 
 **Trademarks are the user's call.** Open the register links the script prints (USPTO,
 TMview/EUIPO, WIPO, the studio's national register) and look for live marks in the same
-class (software, class 9/42). Report what you find plainly; never write "trademark
+class (software, class 9/42). When you have a browser tool, run these searches yourself
+instead of handing the links over, and trust an empty result only after a control search
+(see checks.md). Report what you find plainly; never write "trademark
 clear". If the name is going on a paid product, say once that a trademark attorney's
 knockout search is cheap compared to a forced rename.
 

@@ -94,6 +94,21 @@ dead mark from 2014; a live mark in class 25 (clothing), different field." Never
 much as identical ones — that assessment is exactly what a trademark attorney's knockout
 search is for, and it is cheap compared to a forced rename after launch.
 
+**An empty result only counts after a control search.** Register sites fail silently, so
+"no results" can mean the search never ran:
+
+- In the same session, search a word you *know* is registered (a famous brand word). If
+  that also comes back empty, the search isn't working and the empty result proves nothing.
+- **USPTO:** a query placed in the URL (`…/search-results?query=<name>`) shows "No results
+  found" for everything. Type into the page's search box instead. Multi-word queries match
+  each word separately and quotes don't help, so read the top relevance-ranked rows for an
+  exact mark. When a result's detail view hangs on "Loading", the TSDR status page
+  (`https://tsdr.uspto.gov/statusview/sn<serial>`) shows the same record.
+- **TMview** also covers USPTO and WIPO, but after a run of searches it serves a "Problem
+  detected" bot-protection page. Report the remaining names as `unknown`; don't keep retrying.
+- Search the obvious sound-alike too (one letter off, same rhyme). A live mark there in the
+  same class is the most common real finding.
+
 ### Social handles — links only
 
 Platforms block automated lookups and rate-limit aggressively, so the script just prints
